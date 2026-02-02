@@ -1,0 +1,166 @@
+@font-face {
+            font-family: 'droid';
+            src: url(font/idroid.otf);
+        }
+
+
+     
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: #83E1AD;
+        }
+
+        div#titulo {
+            text-align: center;
+            padding-top: 25px;
+            color: white;
+            font-family: "Bebas Neue", sans-serif;            
+        }
+
+        
+        div#titulo > p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-image: linear-gradient(to top, #1A5C38, #2D985B, #34BF71);
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a {
+            color: #9befc1;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin: 3px;
+
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: bold;
+
+            padding: 10px;
+
+        }
+
+        nav > a:hover {
+            color: #005114;
+            background-color: #2EA364;
+        }
+
+        main {
+            margin-top: 0px;
+            width: 70%;
+            align-items: center;
+            margin: auto;
+            background-color: white;
+        }
+
+        main > h1 {
+            margin-top: 2px;
+            padding-top: 15px;
+            padding-left:  15px;
+            font-family: 'droid';
+            text-align: left;
+            color: #195C36;
+        }
+
+        main > h2 {
+            
+            background-image: linear-gradient(to right, #83e1ada8, white);
+            font-family: 'droid';
+            color: #195C36;
+            padding-left:  15px;
+            margin-left:15px ;
+
+        }
+
+        main > p {
+            text-indent: 20px;
+            padding-left: 15px;
+
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+
+            line-height: 20px;
+
+            margin-bottom: 0px;
+        }
+
+        span {
+            color: #1A5C38;
+            font-weight: bolder;
+        }
+
+        main > picture > img {
+            width: 94%;
+            display: block;
+            margin: auto;
+        }
+
+        main > img {
+            width: 40%;
+            display: block;
+            margin: auto;
+        }
+
+        main > p > a  {
+            text-decoration: none ;
+            background-color: #9befc1;
+        }
+
+        main > p > a > span:hover  {
+            text-decoration: underline ;
+        }
+
+        main > p > a >span::after {
+            content: "🔗";
+        }
+
+        footer {
+            background-color: #1A5C38;
+            color: white;
+            text-align: center;
+        }
+
+        footer > p {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: bold;
+
+                padding-top: 20px;
+                padding-bottom: 20px;
+        }
+
+        main > div#video {
+            background-color: #195C36;
+        }
+
+        iframe {
+            padding-top:25px;
+            padding-bottom: 25px;
+            display: block;
+            margin: auto;
+        }
+
+        main > div#aprender > p {
+            font-family: "Montserrat", sans-serif;
+            
+            margin-right: 20px;
+            padding-left: 15px;
+            
+            border-radius: 30%;
+        }
+
+        main > div#aprender > h5 {
+            background-color: #34BF71;
+            font-family: "Montserrat", sans-serif;;
+            color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-left: 15px;
+            padding-top: 10px;
+            
+        }
